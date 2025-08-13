@@ -2,11 +2,14 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Video Link
 
-
+https://www.loom.com/share/426697a67670443ca86ff56a328df6ad?sid=713152cc-c76d-4707-8ed1-d2410e4a356e
 
 ## Overview
 
-As a software engineer, I’m documenting my development process to build scalable web applications. I created a task management web dashboard where users can log in/out with session checks in cloud storage (supabase), view and complete tasks also from local shorage with strike-through indicators and toast alerts, and add new tasks, all with a responsive UI styled using custom CSS.
+I designed and implemented a responsive task management dashboard that strikes a balance between performance, usability, and maintainability. The application follows a modular architecture and leverages both cloud and local storage to enhance user experience and ensure reliable data persistence.
+For authentication and session management, I integrated Supabase to provide secure user login and logout functionality. I implemented session checks using Supabase’s authentication API to maintain persistent user sessions across browser refreshes and device changes. Additionally, I developed fallback logic to gracefully handle expired sessions or unauthorized access, thereby strengthening the application's security and reliability.
+In terms of task storage and syncing, I built a mechanism that keeps task states—such as completed or pending—consistent across sessions. To improve clarity and user engagement, I incorporated strike-through indicators that visually mark completed tasks.
+
 
 ## Getting Started
 
@@ -55,6 +58,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 # Future Work
 
-- Enhance error handling for network issues with Supabase.
+- Enhanced Error Handling & Validation.
 - Add user profile management via Supabase Auth.
 - Implement task deletion confirmation dialogs.
